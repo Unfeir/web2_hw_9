@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "hw-9"
+version = "0.1.0"
+description = ""
+authors = ["Anton Holovin <54354764+Unfeir@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "hw_9"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.28.2"
+beautifulsoup4 = "^4.11.2"
+mongoengine = "^0.27.0"
+scrapy = "^2.8.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
